@@ -1259,6 +1259,12 @@ section,
   margin-bottom: 20px;
 }
 
+.qc-home {
+  height: 80%;
+  overflow: scroll;
+  border: 1px dotted color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
 .service-details h3 {
   font-size: 26px;
   font-weight: 700;
@@ -1290,6 +1296,12 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+.certificate {
+  color: green;
+}
+
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
