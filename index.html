@@ -4,7 +4,9 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Rohit Patnala | Frontend Engineer | IIT Kanpur Alum</title>
+    <title>
+      Rohit Patnala | Frontend Engineer | IIT Kanpur Graduate | Portfolio
+    </title>
     <meta
       content="Rohit Patnala - Frontend Developer with 9+ years of experience in React, JavaScript, and UI/UX. Based in Bangalore. IIT Kanpur graduate."
       name="description"
@@ -15,7 +17,6 @@
     />
     <!-- Favicons -->
     <link href="assets/img/logo.svg" rel="icon" />
-    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
@@ -61,7 +62,7 @@
           "https://www.linkedin.com/in/rohitpatnala",
           "https://github.com/rohitpatnala"
         ],
-        "jobTitle": "Frontend Engineer",
+        "jobTitle": "Senior Software Engineer",
         "alumniOf": "IIT Kanpur"
       }
     </script>
@@ -133,25 +134,6 @@
               ><i class="bi bi-hdd-stack navicon"></i> Coursework</a
             >
           </li>
-          <!-- <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li> -->
         </ul>
       </nav>
     </header>
@@ -170,8 +152,8 @@
             I'm a
             <span
               class="typed"
-              data-typed-items="Designer, Developer, Musician, Freelancer"
-              >Designer</span
+              data-typed-items="Developer, UI Designer, SW Architect, Musician, Freelancer"
+              >Developer</span
             ><span
               aria-hidden="true"
               class="typed-cursor typed-cursor--blink"
@@ -190,10 +172,12 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>About</h2>
           <p>
-            An IIT Kanpur graduate offering about 9 years of professional work
-            experience across the fields of Software Architecture, Design &amp;
-            Engineering, Data Analaytics, UI/UX Design &amp; Development, and
-            Team Management.
+            A graduate of IIT Kanpur with nearly 9 years of professional
+            experience spanning Software Architecture, Design & Engineering, AI
+            Agents, Data Analytics, UI/UX Design & Development, and Team
+            Leadership. Adept at delivering innovative solutions, driving
+            efficiency, and fostering collaboration to achieve organizational
+            goals.
           </p>
         </div>
         <!-- End Section Title -->
@@ -209,8 +193,8 @@
             <div class="col-lg-8 content">
               <h2>Full Stack Developer</h2>
               <p class="fst-italic py-3">
-                Aspired to become a data scientist but then life destined me
-                towards developing a passion towards software engineering.
+                Initially aspired to become a data scientist, but life's journey
+                led me to discover a deep passion for software engineering.
               </p>
               <div class="row">
                 <div class="col-lg-6">
@@ -228,7 +212,6 @@
                         ></span
                       >
                     </li>
-                    <!-- <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 966 3535 087</span></li> -->
                     <li>
                       <i class="bi bi-chevron-right"></i>
                       <strong>City:</strong> <span>Bangalore, IND</span>
@@ -239,14 +222,20 @@
                   <ul>
                     <li>
                       <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
-                      <span>30</span>
+                      <span id="age"></span>
+                      <script>
+                        const birthday = new Date("1994-04-16");
+                        const ageDiff = Date.now() - birthday.getTime();
+                        const ageDate = new Date(ageDiff);
+                        const age = Math.abs(ageDate.getUTCFullYear() - 1970);
+                        document.getElementById("age").textContent = age;
+                      </script>
                     </li>
                     <li>
                       <i class="bi bi-chevron-right"></i>
                       <strong>Qualifications:</strong>
                       <span>B.Tech, Masters from IIT Kanpur</span>
                     </li>
-                    <!-- <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>rohit.patnala16@gmail.com</span></li> -->
                     <li>
                       <i class="bi bi-chevron-right"></i>
                       <strong>Available for work:</strong> <span>Yes</span>
@@ -254,14 +243,17 @@
                   </ul>
                 </div>
               </div>
-              <p class="py-3">
-                Over my ~9 years of experience, I've worked on developing robust
-                and scalable backend services using C# &amp; Python (across
-                different projects) and have also worked on developing
-                intellectual user interfaces. With time, I find myself
-                passionate about developing interesting user interfaces, but
-                that doesn't limit me to extend my contributions for the backend
-                aspect of things.
+              <p class="py-1">
+                With over 9 years of experience, I have honed my skills in
+                building scalable and efficient backend services using C# and
+                Python, while also crafting intuitive and user-friendly
+                interfaces to enhance user experiences.
+              </p>
+              <p>
+                Over time, I have developed a strong passion for creating
+                engaging and intuitive user interfaces, while also contributing
+                effectively to backend development to ensure seamless
+                integration and functionality.
               </p>
             </div>
           </div>
@@ -335,8 +327,8 @@
           <h2>Skills</h2>
           <p>
             <i
-              ><u>Note:</u> The below scores are purely self opinionated based
-              on fair grounds</i
+              ><u>Note:</u> The following proficiency levels are self-assessed
+              and based on practical experience and expertise.</i
             >
           </p>
         </div>
@@ -510,7 +502,8 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>Resume</h2>
           <p>
-            This section provides a glimpse of my recent work and education.
+            This section provides a glimpse of my recent work, overall education
+            and internships.
           </p>
         </div>
         <!-- End Section Title -->
@@ -522,16 +515,18 @@
                 <h4>Bio</h4>
                 <p>
                   <em
-                    >Innovative and deadline-driven software developer with 9+
-                    years of experience designing and developing user-centered
-                    applications and services from initial concept to final,
-                    polished deliverable.</em
+                    >Results-oriented and detail-driven software developer with
+                    over 9 years of experience in designing, developing, and
+                    delivering high-quality, user-focused applications and
+                    services, from conceptualization to deployment.</em
                   >
                 </p>
                 <ul>
-                  <li>Bangalore, India</li>
-                  <li>+91 966 3535 087</li>
-                  <li>rohit.patnala16@gmail.com</li>
+                  <li><i class="bi bi-geo-alt"></i> Bangalore, KA, India</li>
+                  <li><i class="bi bi-telephone"></i> +91 966 3535 087</li>
+                  <li>
+                    <i class="bi bi-envelope"></i> rohit.patnala16@gmail.com
+                  </li>
                 </ul>
               </div>
               <!-- End Resume Item -->
@@ -548,9 +543,11 @@
                 </p>
                 <h5>2022 - 2024</h5>
                 <p>
-                  Pursued an online master's degree in communication systems to
-                  acquire strong foundation on next generation wireless
-                  technologies (5G/6G) and Quantum Computing
+                  Pursued an online master's degree in Communication Systems,
+                  focusing on advanced topics such as next-generation wireless
+                  technologies (5G/6G) and Quantum Computing, to build a robust
+                  foundation in cutting-edge communication and computational
+                  paradigms.
                 </p>
               </div>
               <!-- End Resume Item -->
@@ -566,11 +563,12 @@
                 </p>
                 <h5>2012 - 2016</h5>
                 <p>
-                  Pursued a bachelors degree in biological sciences and
-                  bioengineering to acquire strong foundation across genetics,
-                  neurobiology, bioinformatics and tissue engineering. The
-                  coursework also comprises of electives across domains like
-                  Humanities and Social Sciences.
+                  Completed a Bachelor of Technology in Biological Sciences and
+                  Bioengineering, gaining a comprehensive foundation in areas
+                  such as genetics, neurobiology, bioinformatics, and tissue
+                  engineering. The curriculum also included interdisciplinary
+                  electives in Humanities and Social Sciences, fostering a
+                  well-rounded academic perspective.
                 </p>
               </div>
               <!-- End Resume Item -->
@@ -584,12 +582,13 @@
                   />
                   National University of Singapore
                 </p>
-                <h5>May 2015 - July 2015</h5>
+                <h5>Summer 2015</h5>
                 <p>
-                  Designed a universal wheelchair drive as part of a
-                  bio-robotics research project. Focused on mechanical design
-                  and modeling using SOLIDWORKS to develop innovative mobility
-                  solutions.
+                  Contributed to the development of a universal wheelchair drive
+                  as part of a bio-robotics research initiative. Focused on
+                  mechanical design and 3D modeling using SOLIDWORKS to create
+                  innovative and efficient mobility solutions, enhancing
+                  accessibility and user experience.
                 </p>
               </div>
               <!-- End Resume Item -->
@@ -602,11 +601,13 @@
                   />
                   Indian Institute of Science, Bangalore
                 </p>
-                <h5>December 2014</h5>
+                <h5>Winter 2014</h5>
                 <p>
-                  Developed a precision mouse brain mounting assembly for
-                  neuroscience research applications. Utilized AutoCAD
-                  extensively for detailed mechanical design and prototyping.
+                  Designed and developed a high-precision mouse brain mounting
+                  assembly tailored for advanced neuroscience research
+                  applications. Leveraged AutoCAD for meticulous mechanical
+                  design, prototyping, and ensuring optimal functionality and
+                  accuracy in experimental setups.
                 </p>
               </div>
               <!-- End Resume Item -->
@@ -626,12 +627,14 @@
                 <h5>September 2025 - Till Date</h5>
                 <ul>
                   <li>
-                    Working as a lead frontend developer + UI architect within
-                    the Platform & Experiences team.
+                    Serving as the lead frontend developer and UI architect
+                    within the Platform & Experiences team, driving the design
+                    and implementation of scalable and user-centric interfaces.
                   </li>
                   <li>
-                    Develop CI/CD based AI agents to enhance development
-                    efficiency and coding standards across team(s).
+                    Developing CI/CD-integrated AI agents to optimize
+                    development workflows, enhance coding standards, and improve
+                    team productivity.
                   </li>
                 </ul>
               </div>
@@ -649,14 +652,17 @@
                 <h5>September 2024 - February 2025</h5>
                 <ul>
                   <li>
-                    Worked as an architect for an internal Machine Learning Ops
-                    platform that enables in-house data scientists to run large
-                    scale recipes to help customers reap the best out of
-                    targeted media advertising.
+                    Designed and architected an internal Machine Learning
+                    Operations (MLOps) platform, empowering in-house data
+                    scientists to execute large-scale recipes, thereby
+                    optimizing targeted media advertising for enhanced customer
+                    outcomes.
                   </li>
                   <li>
-                    Mentor the team in managing the infrastructure resources on
-                    AWS for cost optimization and resiliency.
+                    Provided mentorship to the team in effectively managing AWS
+                    infrastructure resources, focusing on cost optimization,
+                    scalability, and system resiliency to ensure robust and
+                    efficient operations.
                   </li>
                 </ul>
               </div>
@@ -674,29 +680,34 @@
                 <h5>February 2022 - September 2024</h5>
                 <ul>
                   <li>
-                    Mentored a team of 4 cross functional peers in the
-                    development of robust UI workflows to seamlessly deploy 5G
-                    SaaS &amp; IaaS based configurations from cloud to edge
-                    devices, enhancing deployment efficiency by 60%.
+                    Provided mentorship to a team of 4 cross-functional peers,
+                    driving the development of robust UI workflows to enable
+                    seamless deployment of 5G SaaS and IaaS configurations from
+                    cloud to edge devices, resulting in a 60% improvement in
+                    deployment efficiency.
                   </li>
                   <li>
-                    Collaborated with product managers and principal architects
-                    to identify system inefficiencies; optimized flows,
-                    revitalized coding practices, and minimized crash rates by
-                    40%, enhancing overall user experience.
+                    Partnered with product managers and principal architects to
+                    identify and address system inefficiencies, optimizing
+                    workflows, refining coding practices, and reducing crash
+                    rates by 40%, thereby significantly enhancing the overall
+                    user experience.
                   </li>
                   <li>
-                    Develop slick dashboards using Power BI to help monitor
-                    various KPIs to ensure better progress management across
-                    projects and processes.
+                    Designed and developed dynamic dashboards using Power BI to
+                    monitor key performance indicators (KPIs), enabling better
+                    progress tracking and management across projects and
+                    processes.
                   </li>
                   <li>
-                    Lead the designing of wireframes across various Azure teams
-                    to help maintain consistency in user experience.
+                    Led the creation of wireframes across various Azure teams,
+                    ensuring consistency and alignment in user experience design
+                    across multiple platforms.
                   </li>
                   <li>
-                    Actively participate in code reviews and maintain coding
-                    standards for better maintainability of the code base.
+                    Actively contributed to code reviews, upholding high coding
+                    standards and best practices to ensure maintainability and
+                    scalability of the codebase.
                   </li>
                 </ul>
               </div>
@@ -714,29 +725,31 @@
                 <h5>July 2021 - January 2022</h5>
                 <ul>
                   <li>
-                    Designed a standalone API using AWS for a VR-based tool in
-                    real estate, using Django REST framework to process polygon
-                    coordinates; enhanced customer property visualization
-                    experience by 60%.
+                    Engineered a robust standalone API leveraging AWS and Django
+                    REST framework for a VR-based real estate visualization
+                    tool, enabling efficient processing of polygon coordinates
+                    and enhancing customer property visualization experiences by
+                    60%.
                   </li>
                   <li>
-                    Revamped microservices for an internal billing application
-                    using Django, by developing restful APIs for report
-                    generation and workflow forms; slashed processing time by
-                    60% and increased data accuracy by over 90%.
+                    Redesigned and optimized microservices for an internal
+                    billing application by developing RESTful APIs for report
+                    generation and workflow automation using Django, reducing
+                    processing time by 60% and improving data accuracy by over
+                    90%.
                   </li>
                 </ul>
               </div>
               <!-- End Resume Item -->
               <div class="resume-item">
                 <h4>
-                  Few more in the full
+                  Explore more details in my
                   <a
                     href="https://docs.google.com/document/d/1MKvdfxVNqlVbeENWYrlE1stdzmAGvkG_P3IbNObKCLs/edit?usp=sharing"
                     rel="noopener noreferrer"
                     target="_blank"
-                    >resume</a
-                  >
+                    >complete resume</a
+                  >.
                 </h4>
               </div>
               <!-- End Resume Item -->
